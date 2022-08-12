@@ -1,0 +1,21 @@
+{
+    "name": "lets-create-something-new",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "dotenv node app.js",
+      "dev": "dotenv nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "sqlite3": "^5.0.11"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }

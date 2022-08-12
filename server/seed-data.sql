@@ -46,7 +46,7 @@ VALUES
     ('Subaru', 'Impreza WRX STi'),
     ('Nissan', 'S13'),
     ('Nissan', '180SX'),
-    ('Toyota', 'Levin AE85')
+    ('Toyota', 'Levin AE85'),
     ('Mazda', 'RX-7 FC'),
     ('Mazda', 'RX-7 FD'),
     ('Nissan', 'GT-R Skyline R32'),

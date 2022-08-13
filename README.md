@@ -70,7 +70,7 @@ Make sure to connect the route to the main app.js file.
 Create a __teams__ route (js file) that will handle the following:
 * Make sure to instantiate SQLITE and the database
 * __'GET /teams'__ - will return a list of all unique team names
-* 🌶 __'GET /teams/:name'__ - will return a list of all the drivers' names and cars (make & model) that are on that team
+* 🌶🌶 __'GET /teams/:name'__ - will return a list of all the drivers' names and cars (make & model) that are on that team
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db
 * __'POST /teams'__ - will create a new team
 * 🌶🌶 __'PUT /teams/:name/:driver'__ - will change the input driver's team to the team **:name**d

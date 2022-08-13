@@ -9,14 +9,14 @@
 INSERT INTO teams
     (name)
 VALUES
-    ('Project D'),
-    ('Speed Stars'),
-    ('Impact Blue'),
+    ('Project_D'),
+    ('Speed_Stars'),
+    ('Impact_Blue'),
     ('Emperors'),
-    ('NightKids'),
-    ('Red Suns'),
-    ('Saitama Alliance'),
-    ('Purple Shadow');
+    ('Night_Kids'),
+    ('Red_Suns'),
+    ('Saitama_Alliance'),
+    ('Purple_Shadow');
 
 INSERT INTO drivers
     (name, home_course, team_id)

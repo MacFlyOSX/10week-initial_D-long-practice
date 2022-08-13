@@ -58,7 +58,7 @@ Add the environment variable __data_source__ with the name of the database file.
 Create a __courses__ route (js file) that will handle the following:
 * Make sure to instantiate SQLITE and the database
 * __'GET /courses'__ - will return a list of all unique course names
-* __'GET /courses/:name'__ - will return a list of all the drivers' names and cars (make & model) whose home course is __:name__
+* 🌶 __'GET /courses/:name'__ - will return a list of all the drivers' names and cars (make & model) whose home course is __:name__
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db
 * 🌶  __'PUT /courses/:name'__ - edit a course's name for all drivers that have that course as their home course
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db (Looking over subqueries might be helpful)
@@ -73,7 +73,7 @@ Create a __teams__ route (js file) that will handle the following:
 * 🌶 __'GET /teams/:name'__ - will return a list of all the drivers' names and cars (make & model) that are on that team
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db
 * __'POST /teams'__ - will create a new team
-* 🌶 __'PUT /teams/:name/:driver'__ - will change the input driver's team to the team **:name**d
+* 🌶🌶 __'PUT /teams/:name/:driver'__ - will change the input driver's team to the team **:name**d
 
 Make sure to connect the route to the main app.js file.
 
@@ -82,9 +82,9 @@ Make sure to connect the route to the main app.js file.
 Create a __drivers__ route (js file) that will handle the following:
 * Make sure to instantiate SQLITE and the database
 * __'GET /drivers'__ - will return a list of all drivers' names
-* __'GET /drivers/:name'__ - will return the driver's name, home course, and car (make & model)
+* 🌶🌶 __'GET /drivers/:name'__ - will return the driver's name, home course, team, and car (make & model)
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db
-* __'PUT /drivers/:name'__ - edit a driver's name, home course, and team id
+* 🌶 __'PUT /drivers/:name'__ - edit a driver's name, home course, and team id
     * pay attention to the input for :name... make sure that you set up some js code to handle it so that it will always match the name in the db
 * 🌶🌶 __'POST /drivers'__ - will create a new driver (example of the correct fields are below). Make sure that you connect the driver with their car using the join table. Looking over subqueries might be helpful
 

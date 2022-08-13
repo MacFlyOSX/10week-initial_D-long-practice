@@ -4,8 +4,8 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-      "start": "dotenv node app.js",
-      "dev": "dotenv nodemon app.js"
+      "start": "node app.js",
+      "dev": "nodemon app.js"
     },
     "keywords": [],
     "author": "",
